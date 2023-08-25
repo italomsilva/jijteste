@@ -1,0 +1,141 @@
+@charset  "UTF-8";
+
+:root{
+    --cor01: #0000;
+    --cor02: #ffff;
+    --cor03: #0561ff;
+    --cor04: #80aeff;
+    --cor05: #02022a;
+}
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #home{
+        height: 110vh;
+        width: 100vw;
+        max-width: 100%;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--cor05);
+        padding-bottom: 10vh;
+    }
+
+    .home-tit{
+        color: var(--cor02);
+    }
+
+    .home-p{
+        color: var(--cor02);
+        margin-bottom: 1rem;
+    }
+
+    .home-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-btn a:nth-child(1){
+        text-decoration: none;
+        color: var(--cor02);
+        border: 2px solid var(--cor03);
+        background-color: var(--cor03);
+        transition: 0.3s;
+    }
+
+    .home-btn a:nth-child(1):hover{
+        background-color: transparent;
+        color: var(--cor04);
+    }
+
+    .home-btn a:nth-last-child(1){
+        text-decoration: none;
+        color: var(--cor02);
+        border: 2px solid var(--cor03);
+        transition: 0.3s;
+    }
+
+    .home-btn a:nth-last-child(1):hover{
+        color: #80aeff;
+    }
+
+
+    /* DESKTOP */
+    /* DESKTOP */
+    /* DESKTOP */
+    /* DESKTOP */
+    /* DESKTOP */
+    /* DESKTOP */
+    /* DESKTOP */
+
+
+    @media (min-width: 890px) {
+        .home-tit{
+            font-size: 8rem;
+        }
+
+        .home-p{
+            font-size: 1.5rem;
+        }
+
+        .home-btn{
+            width: 50%;
+            gap: 10%;
+        }
+
+        .home-btn a:nth-child(1){
+            padding: 0.5rem 2.3rem;
+            font-size: 1.5rem;
+        }
+
+        .home-btn a:nth-last-child(1){
+            padding: 0.5rem 2.3rem;
+            font-size: 1.5rem;
+    }
+    }
+
+
+    /* MOBILE */
+    /* MOBILE */
+    /* MOBILE */
+    /* MOBILE */
+    /* MOBILE */
+    /* MOBILE */
+    /* MOBILE */
+    /* MOBILE */
+
+
+    @media (max-width: 890px) {
+        .home-tit{
+            font-size: 5rem;
+        }
+
+        .home-p{
+            font-size: 1.5rem;
+        }
+
+        .home-btn{
+            gap: 10%;
+            width: 90%;
+        }
+
+        .home-btn a:nth-child(1){
+            padding: 0.2rem 1.5rem;
+            font-size: 1.3rem;
+        }
+        .home-btn a:nth-last-child(1){
+            padding: 0.2rem 1.5rem;
+            font-size: 1.3rem;
+        }
+    }
+
+
+
