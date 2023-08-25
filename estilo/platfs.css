@@ -59,6 +59,7 @@
     .platfs-p{
         font-size: 1.3rem;
         text-indent: 2rem;
+        text-align: justify;
     }
 
     .platfs-ul{
@@ -99,6 +100,98 @@
         background-color: #80afff6e;
         color: var(--cor03);
     }
+}
 
+/* MOBILE */
+/* MOBILE */
+/* MOBILE */
+/* MOBILE */
+/* MOBILE */
+/* MOBILE */
+/* MOBILE */
 
+@media (max-width:890px) {
+    #platfs {
+    padding: 10vh 0.5rem;
+    }
+
+    .platfs-tit{
+        font-size: 3rem;
+        color: var(--cor03);
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .platfs-tit::after{
+        content: "";
+        display: block;
+        width: 60%;
+        max-width: 230px;
+        height: 4px;
+        background-color: var(--cor04);
+        margin: auto;
+    }
+
+    .platfs-cont{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .platfs-box{
+        border: 2px solid var(--cor03);
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .platfs-subtit{
+        color: #0561ff;
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .platfs-p{
+        font-size: 1.3rem;
+        text-indent: 2rem;
+        text-align: justify;
+    }
+
+    .platfs-ul{
+        padding-left: 4rem;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        list-style: none;
+    }
+
+    .platfs-ul li:before{
+        content: "";
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        border-radius: 6px;
+        background-color: #0561ff;
+        position: relative;
+        top: 0;
+        right: 0.5rem;
+    }
+
+    .platfs-btn{
+        width: 100%;
+        text-align: center;
+    }
+
+    .platfs-btn a{
+        text-decoration: none;
+        color: var(--cor02);
+        background-color: var(--cor03);
+        border: 2px solid var(--cor03);
+        padding: 0.2rem 4rem;
+        font-size: 1.2rem;
+        transition: 0.5s;
+    }
+
+    .platfs-btn a:hover{
+        background-color: #80afff6e;
+        color: var(--cor03);
+    }
 }
